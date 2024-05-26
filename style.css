@@ -1,0 +1,136 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    line-height: 38px;
+    background-color: rgb(104, 240, 183);
+    color: rgb(255, 255, 255);
+    padding: 10px 0;
+    text-align: center;
+    top: 0;
+    z-index: 1000;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.hero {
+    background: url('bottle-bg.jfif') no-repeat center center/cover;
+    color: rgb(12, 248, 138);
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero button {
+    background-color: #4CAF50;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.hero button:hover {
+    background-color: #45a049;
+}
+
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.columns {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.column1 {
+    background: linear-gradient(rgba(36, 218, 112, 0.7),rgba(130, 216, 127, 0.596));
+    background-color: bisque;
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+}
+.column2{
+    background: linear-gradient(rgba(36, 218, 112, 0.7),rgba(130, 216, 127, 0.596));
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+
+}
+
+.column3{
+    background: linear-gradient(rgba(36, 218, 112, 0.7),rgba(130, 216, 127, 0.596));
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+
+}
+
+footer {
+    background-color: lightgray;
+    color: black;
+    text-align: center;
+    padding: 20px 0;
+    bottom: 0;
+    width: 100%;
+}
+
+footer .social-media a {
+    margin: 0 10px;
+    color: #4CAF50;
+    text-decoration: none;
+}
+
+footer .social-media a:hover {
+    text-decoration: underline;
+    background-color: azure;
+}
+
+/* Slider */
+.slider {
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.slide.active {
+    display: block;
+}
+
+header nav ul li a:hover{
+    background-color: rgb(255, 137, 71);
+}
